@@ -1,0 +1,15 @@
+{
+  "name": "cloudflare-dns-query-report",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Worker that exports 30-day DNS query counts for every zone and uploads a CSV to S3-compatible storage.",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.12"
+  }
+}
